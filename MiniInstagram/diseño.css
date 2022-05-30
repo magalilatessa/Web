@@ -1,0 +1,117 @@
+
+header{
+    position: sticky;
+    top: 20px;
+    display:inline;
+    flex-direction: initial;
+    height: 10%;
+    background-color: rgb(255, 255, 255); 
+    justify-content: space-between ;
+    margin: 0px;
+}
+.titulo{
+    display: inline;
+    font-family: 'Brush Script MT', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 300%;
+    margin-right: 300px;
+}
+.BarraBuscar{
+    margin-right: 200px;
+    align-items: center;
+    width: 400px;
+    height: 20px;
+}
+
+.FinHeader{
+    align-items: center;
+}
+.buttonInicio{
+    display:inline-flex;
+    justify-content: space-between;
+    width: 100px;
+    height: 30px;
+}
+
+.card{
+    position:fixed;
+    align-self: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.IMGpost{
+    align-content: center; 
+    width:300px;
+    height:300px; 
+}
+.encabezado{
+    display: inline;
+}
+.FotoPerfil{
+    height: 20px;
+    width:20px;
+    border-radius: 50%;
+}
+.usuario{
+    display: inline;
+    align-self: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+}
+.Descripcion{
+    align-content: flex-start;
+    display: inline;
+
+}
+
+.post{
+    width: 300px;
+    height: 450px;
+    border: 1px solid rgb(206, 191, 191);
+    justify-content: space-between;
+    padding: 0 1rem;
+    margin: 1rem;
+    margin: top 1rem; ;
+
+}
+
+.botones{
+    display: inline;
+}
+.button{
+    display: flexbox;
+    height: 15px;
+    width:15px;
+    align-items: center;
+    border: 0ch;
+    background: none;
+    margin-inline: 20px;
+}
+
+.buttonIMG{
+    display: flexbox;
+    height: 10px;
+    width:10px;
+    align-items: center;
+    border: 0ch;
+    background: none;
+
+}
+
+.IMGbutton{
+    align-content: center;
+    height: 30px;
+    width:30px;
+}
+
+.IMGbuttonIMG{
+    align-content: center;
+    height: 15px;
+    width:15px;
+}
+.puntos{
+    font-size:xx-large;
+    display: inline;
+    
+}
