@@ -34,11 +34,16 @@ header{
 }
 
 .card{
-    position:fixed;
+    width: 100%;
+    display:flex;
     align-self: center;
     flex-direction: column;
     align-items: center;
 
+}
+.fechaPost{
+    color: rgb(114, 119, 119);
+    size: 50%;
 }
 .IMGpost{
     align-content: center; 
