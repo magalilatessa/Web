@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+
+.nombreProductos{
+    color: #c0b293;
+    padding: 3%;
+}
 nav{
     background: #c0b293;
     height: 80px;
@@ -16,10 +21,9 @@ nav{
     padding: 20px 50px;
 }
 .logo{
-
-    height: 65px;
+  height: 65px;
 }
-nav ul{
+.menuUl{
     float: right;
     margin-right: 20px;
 }
@@ -51,52 +55,7 @@ li a.active, li a:hover{
 #check{
     display: none;
 }
-section{
-    background: url(fondo.jpg) no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: calc(100vh - 80px);
-}
 
-@media (max-width: 952px){
-    .enlace{
-        padding-left: 20px;
-    }
-    nav ul li a{
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 858px){
-    .checkbtn{
-        display: block;
-    }
-    ul{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background: #2c3e50;
-        top: 80px;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-    }
-    nav ul li{
-        display: block;
-        margin: 50px 0;
-        line-height: 30px;
-    }
-    nav ul li a{
-        font-size: 20px;
-    }
-    li a:hover, li a.active{
-        background: none;
-        color: red;
-    }
-    #check:checked ~ ul{
-        left:0;
-    }
-}
 
 
 @media (max-width: 952px){
@@ -112,7 +71,7 @@ section{
     .checkbtn{
         display: block;
     }
-    ul{
+    .menuUl{
         position: fixed;
         width: 100%;
         height: 100vh;
@@ -143,6 +102,8 @@ section{
 
 
 
+
+
 /* Font */
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 
@@ -162,7 +123,6 @@ body {
 .main{
   max-width: 1200px;
   margin: 0 auto;
-
 }
 
 h1 {
@@ -194,43 +154,16 @@ img {
 .btn:hover {
   background-color: rgba(255, 255, 255, 0.12);
 }
-.cards_Info{
-    display: flex;
-  padding: 1rem;  
-}
-.cardInfo{
-    background-color: white;
-    border-radius: 0.25rem;
-    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
-    display: flex;
-    flex-direction: column;
-    overflow: hidden; 
-    align-content: center;
-}
-
-.card_contentInfo{
-    padding: 1rem;
-}
-.card_textInfo{
-    color: #c0b293;
-    font-size: 1rem;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: capitalize;
-    margin: 0px;
-}
 
 .cards {
-
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   margin: 0;
   padding: 0;
-
 }
 
 .cards_item {
-
   display: flex;
   padding: 1rem;
 }
@@ -246,8 +179,6 @@ img {
     width: 33.3333%;
   }
 }
-
-
 
 .card {
   background-color: white;
@@ -279,7 +210,12 @@ img {
   margin-bottom: 1.25rem;    
   font-weight: 400;
 }
-
+.made_by{
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
+}
 
 
 
