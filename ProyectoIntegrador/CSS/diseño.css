@@ -16,7 +16,6 @@ nav{
     padding: 20px 50px;
 }
 .logo{
-
     height: 65px;
 }
 .menuUl{
@@ -36,7 +35,7 @@ nav ul li a{
     text-transform: uppercase;
 }
 li a.active, li a:hover{
-    background: #f1e46a;
+    background: #d8c69e ;
     transition: .5s;
 }
 .checkbtn{
@@ -92,7 +91,7 @@ section{
     }
     li a:hover, li a.active{
         background: none;
-        color: #f1e46a;
+        color: #d8c69e;
     }
     #check:checked ~ ul{
         left:0;

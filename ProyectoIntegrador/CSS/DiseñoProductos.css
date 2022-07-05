@@ -40,7 +40,7 @@ nav ul li a{
     text-transform: uppercase;
 }
 li a.active, li a:hover{
-    background: #f1e46a;
+    background: #d8c69e;
     transition: .5s;
 }
 .checkbtn{
@@ -91,7 +91,7 @@ li a.active, li a:hover{
     }
     li a:hover, li a.active{
         background: none;
-        color: rgb(240, 232, 162);
+        color: #d8c69e;
     }
     #check:checked ~ ul{
         left:0;
@@ -191,7 +191,7 @@ img {
 
 .card_content {
   padding: 1rem;
-  background: linear-gradient(to bottom left, #efd88d 40%, #9d9e63 100%);
+  background: linear-gradient(to bottom left, #d8c69e 40%, #9d9e63 100%);
 }
 
 .card_title {
