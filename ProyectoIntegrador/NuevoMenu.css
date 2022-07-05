@@ -51,6 +51,7 @@ nav{
 li a.active, li a:hover{
     background: #d8c69e ;
     transition: .5s;
+    
 }
 .checkbtn{
     font-size: 30px;
@@ -108,3 +109,89 @@ li a.active, li a:hover{
     }
 
 }
+
+
+
+
+
+
+.slider-container {
+    display: flex;
+    align-content: center;
+    width: 100%;
+    height: 50vh;
+    overflow-x: scroll;
+  
+    /* Vamos a añadir esto 👇 */
+    scroll-snap-type: x mandatory;
+  }
+  
+  .slider-container img {
+    flex: 0 0 40%;
+    width: 50%;
+    object-fit: cover;
+  
+    /* Vamos a añadir esto 👇 */
+    scroll-snap-align: center;
+  }
+
+.seccion{
+    text-align: center;
+    color: #c0b293;
+    padding: 2%;
+}
+
+.redes{
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+}
+
+.imagenesRedes{
+    width:25px;
+    height:25px;
+}
+
+.items{
+    display: flex;
+    padding: 1rem;
+}
+
+@media (max-width: 40rem) {
+    .items {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 56rem) {
+    .items {
+      width: 33.3333%;
+    }
+  }
+
+
+
+  .whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+  }
+  
+  .whatsapp-icon {
+    margin-top:13px;
+    
+  }
