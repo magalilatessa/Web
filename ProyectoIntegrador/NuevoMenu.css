@@ -192,6 +192,6 @@ li a.active, li a:hover{
   }
   
   .whatsapp-icon {
-    margin-top:13px;
-    
+    width: 100%;
+    align-items: center;
   }
